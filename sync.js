@@ -1,8 +1,8 @@
-const f1 = () => console.log(`f1 called`);
-const f2 = () => console.log(`f2 called`);
-const f3 = () => console.log(`f3 called`);
+const f1 = () => console.log(`f1`);
+const f2 = () => console.log(`f2`);
+const f3 = () => console.log(`f3`);
 
-// call f1, f2, f3 sequentially
+// terminal output: f1 -> f2 -> f3
 f1();
 f2();
 f3();
