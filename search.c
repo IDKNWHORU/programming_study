@@ -10,7 +10,7 @@ void search(int array[], size_t length) {
 	}
 
 	if (i < length) {
-		printf("Item %d\n", i);
+		printf("Item %d\n", array[i]);
 	}
 	else {
 		printf("Not found\n");
