@@ -1,3 +1,4 @@
 # c lang git ignore
 *.exe
 *.obj
+.vscode
